@@ -16,7 +16,7 @@ try:
     PersonasJSON = respuesta.json()
 
     for i in PersonasJSON[ 'PersonasEncontradas' ]:
-        print( "Persona: {} {} {}" . format( i[ 'CURP' ], i[ 'FechaNacimiento' ], i[ 'Nombres' ] ) )
+        print( "Persona: {} {}" . format( i[ 'FechaNacimiento' ], i[ 'Nombres' ] ) )
 
 except ValueError:
     print( "No se pudo conectar al servidor: localhost:8080"  )

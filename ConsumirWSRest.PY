@@ -18,5 +18,5 @@ try:
     for i in PersonasJSON[ 'PersonasEncontradas' ]:
         print( "Persona: {} {}" . format( i[ 'FechaNacimiento' ], i[ 'Nombres' ] ) )
 
-except :S
+except :
     print( "No se pudo conectar al servidor: localhost:8080"  )

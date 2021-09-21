@@ -4,7 +4,7 @@ import sys
 import json
 
 url = "http://localhost:8080/CronosGlobalNet/WSDatosSencibles/BusquedaPersona/RealizaBusqueda"
-peticion = "{\r\n    \"Datos\": {\r\n        \"nombres\": \"Miguel\",\r\n        \"apellidoP\": \"resendiz\",\r\n        \"apellidoM\": \"gutierrez\",\r\n        \"CURP\":\"\",\r\n        \"fechaNacimiento\": \"\"\r\n    }\r\n}"
+peticion = "{ \"Datos\":{\"nombres\": \"Miguel\",\"apellidoP\":\"resendiz\",\"apellidoM\":\"gutierrez\",\"CURP\":\"\",\"fechaNacimiento\": \"\"} }"
 
 PropiedadesURL = {
     'content-type': "application/json",

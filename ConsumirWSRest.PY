@@ -19,4 +19,4 @@ try:
         print( "Persona: {} {}" . format( i[ 'FechaNacimiento' ], i[ 'Nombres' ] ) )
 
 except :
-    print( "No se pudo conectar al servidor: localhost:8080"  )
+    print( "Ocurrio un error"  )
